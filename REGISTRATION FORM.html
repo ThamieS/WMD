@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            background-color:#152733 ;
+            overflow: hidden;
+            height: 100%;
+            font-style: italic;
+            color: white;
+            font-size: large;
+        }
+        fieldset{
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+     <fieldset id="fldset">
+        <legend>User Registration</legend>
+        <input type="hidden" id="flduserid" name="flduserid"/>
+            <label for="firstname">Firstname</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Firstname" required/>
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" placeholder="Surname" required/> <br/>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="0">Select...</option>
+                <option value="F">Female</option>
+                <option value="M">Male</option>
+            </select></br>
+    </fieldset>
+</body>
+</html>
